@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route exact path="/" render={() => <h3>Home Screen</h3>} />
-      <Route path="/team-members" component={Users} />
-      <Route path="/new-task" container={NewTask} />
+        <Route exact path="/" render={() => <h3>Home Screen</h3>} />
+        <Route path="/team-members" component={Users} />
+        <Route path="/new-task" component={NewTask} />
     </div>
   );
 }
